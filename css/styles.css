@@ -1,18 +1,34 @@
-body {
-    background-color: #DEFCF9;
+/* TAG SELECTORS */
+
+h1 {
+    color: red;
+    font-size: 200px;
 }
 
-h1, h3 {
-    color: #66BFBF;
+img:hover {
+    background-color: gold;
 }
 
-h3 {
-    font-style: italic;   
+/* CLASS SELECTORS */
+
+.bacon {
+    background-color: green;
 }
 
-hr {
-    border-color: gray;
-    border-style: dotted none none;
-    width: 10%;
-    border-width: 5px;
+.broccoli {
+    background-color: red;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+/* ID SELECTORS */
+
+#heading {
+    color: blue;
+}
+
+#big {
+    font-size: 1000px;
 }
