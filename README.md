@@ -2,7 +2,7 @@
 
 Udemy Course Link - https://www.udemy.com/course/the-complete-web-development-bootcamp/
 
-1. HTML-Personal-Site Project Live Link - https://personalsitehtml.netlify.app/
+1. HTML-Personal-Site Project Live Link - https://personal-site-html.netlify.app/
 
 2. CSS-Bacon-Fansite Project Live Link - https://css-bacon-fansite.netlify.app/
 
