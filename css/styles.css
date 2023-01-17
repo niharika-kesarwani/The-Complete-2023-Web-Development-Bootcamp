@@ -32,6 +32,25 @@ h3 {
 .middle-container {
 }
 
+.skill-row {
+    line-height: 2;
+    margin: 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.code-img{
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.cycle-img {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
 .bottom-container {
 }
 
