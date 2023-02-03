@@ -10,6 +10,6 @@ Udemy Course Link - https://www.udemy.com/course/the-complete-web-development-bo
 
 3. CSS-My-Site Project Live Link - https://my-site-css.netlify.app/
 
-4. CSS-Bacon-Fansite Project Live Link - https://css-bacon-fansite.netlify.app/
+4. CSS-Cottage-Cheese-Fansite Project Live Link - https://css-cottage-cheese-fansite.netlify.app/
 
 5. HTML-Personal-Site Project Live Link - https://personal-site-html.netlify.app/
