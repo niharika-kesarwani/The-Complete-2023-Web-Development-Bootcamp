@@ -2,11 +2,11 @@
 
 Udemy Course Link - https://www.udemy.com/course/the-complete-web-development-bootcamp/
 
-1. Dicee Challenge Project Live Link - https://dicee-challenge-niharika.netlify.app/
+1. Dicee-Challenge Project Live Link - https://dicee-challenge-niharika.netlify.app/
 
 1. DOM Project Live Link - https://dom-niharika.netlify.app/
 
-2. TinDog Project Live Link - https://tindog-site-niharika.netlify.app/
+2. Tindog-Site Project Live Link - https://tindog-site-niharika.netlify.app/
 
 3. CSS-My-Site Project Live Link - https://my-site-css.netlify.app/
 
