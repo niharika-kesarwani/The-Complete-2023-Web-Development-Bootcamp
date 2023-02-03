@@ -11,12 +11,14 @@ img:hover {
 
 /* CLASS SELECTORS */
 
-.bacon {
+.cottage-cheese {
     background-color: green;
+    width: 20%;
 }
 
 .broccoli {
     background-color: red;
+    width: 20%;
 }
 
 .circular {
