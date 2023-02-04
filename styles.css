@@ -23,41 +23,41 @@ h1 {
   font-family: 'Arvo', cursive;
   font-size: 5rem;
   font-weight: 900;
-  height: 150px;
-  line-height: 2;
+  height: 12%;
+  line-height: 1.5;
   margin: 10px;
   outline: none;
   text-align: center;
   text-shadow: 3px 0 #DBEDF3;
-  width: 150px;
+  width: 12%;
 }
 
 .w {
-
+  background-image: url("images/tom1.png");
 }
 
 .a {
-
+  background-image: url("images/tom2.png");
 }
 
 .s {
-
+  background-image: url("images/tom3.png");
 }
 
 .d {
-
+  background-image: url("images/tom4.png");
 }
 
 .j {
-
+  background-image: url("images/snare.png");
 }
 
 .k {
-
+  background-image: url("images/crash.png");
 }
 
 .l {
-
+  background-image: url("images/kick.png");
 }
 
 .game-over {
