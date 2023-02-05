@@ -1,5 +1,6 @@
 body {
   background-color: #283149;
+  margin: 0;
   text-align: center;
 }
 
@@ -74,7 +75,33 @@ h1 {
   color: red;
 }
 
-footer {
-  color: #DBEDF3;
+.footer {
+  background-color: #DBEDF3;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  color: #283149;
   font-family: sans-serif;
+  margin-top: 5%;
+  padding: 1.5rem 0rem;
+  text-align: center;
+}
+
+.footer-header {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.footer-ul-links {
+  padding: 10px 0 0;
+}
+
+.lists-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.footer-links {
+  color: #283149;
+  padding-left: 0px;
+  text-decoration: none;
 }
