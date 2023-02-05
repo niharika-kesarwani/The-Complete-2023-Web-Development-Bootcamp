@@ -1,5 +1,6 @@
 body {
   background-color: #393E46;
+  margin: 0;
 }
 
 .container {
@@ -31,14 +32,34 @@ img {
   width: 80%;
 }
 
-footer {
+
+.footer {
+  background-color: #4ECCA3;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
   color: #EEEEEE;
   font-family: 'Indie Flower', cursive;
   margin-top: 5%;
+  padding: 1.5rem 0rem;
   text-align: center;
 }
 
-a {
+.footer-header {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.footer-ul-links {
+  padding: 10px 0 0;
+}
+
+.lists-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.footer-links {
   color: #FFF;
+  padding-left: 0px;
   text-decoration: none;
 }
