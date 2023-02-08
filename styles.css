@@ -1,29 +1,29 @@
 body {
-  text-align: center;
   background-color: #011F3F;
+  margin: 0;
+  text-align: center;
 }
 
 #level-title {
+  color: #FEF2BF;
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
   margin:  5%;
-  color: #FEF2BF;
 }
 
 .container {
   display: block;
-  width: 50%;
   margin: auto;
-
+  width: 50%;
 }
 
 .btn {
-  margin: 25px;
-  display: inline-block;
-  height: 200px;
-  width: 200px;
   border: 10px solid black;
   border-radius: 20%;
+  display: inline-block;
+  height: 200px;
+  margin: 25px;
+  width: 200px;
 }
 
 .game-over {
@@ -48,6 +48,38 @@ body {
 }
 
 .pressed {
-  box-shadow: 0 0 20px white;
   background-color: grey;
+  box-shadow: 0 0 20px white;
+}
+
+.footer {
+  background-color: #FEF2BF;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  color: #000;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 5%;
+  padding: 1rem 0rem;
+  text-align: center;
+}
+
+.footer-header {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.footer-ul-links {
+  padding: 5px 0 0;
+  margin-bottom: 0.5rem;
+}
+
+.lists-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.footer-links {
+  color: #000;
+  padding-left: 0px;
+  text-decoration: none;
 }
