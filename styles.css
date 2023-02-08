@@ -68,14 +68,9 @@ body {
   font-weight: bolder;
 }
 
-.container-center{
-  max-width: 650px;
-  margin: auto;
-}
-
 .footer-ul-links {
-  padding: 5px 0 0;
-  margin-bottom: 0.5rem;
+  padding: 5px 0;
+  margin: 0.5rem 0;
 }
 
 .lists-item-inline {
