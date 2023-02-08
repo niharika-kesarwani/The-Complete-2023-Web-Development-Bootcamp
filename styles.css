@@ -8,7 +8,7 @@ body {
   color: #FEF2BF;
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5%;
+  margin: 4% 5% 2%;
 }
 
 .container {
@@ -21,9 +21,9 @@ body {
   border: 10px solid black;
   border-radius: 20%;
   display: inline-block;
-  height: 200px;
+  height: 150px;
   margin: 25px;
-  width: 200px;
+  width: 150px;
 }
 
 .game-over {
