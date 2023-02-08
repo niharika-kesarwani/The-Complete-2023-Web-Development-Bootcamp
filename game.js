@@ -48,7 +48,9 @@ function checkAnswer(currentLevel) {
             $("body").removeClass("game-over");
         }, 200);
 
-        $("#level-title").html("Game Over! <br><br>Final Level " + (level-1) + "<br><br>Press Any Key to Restart!");
+        if (level >= 1) {
+            $("#level-title").html("Game Over! <br><br>Final Level " + (level-1) + "<br><br>Press Any Key to Restart!");
+        }
 
         startOver();
     }
