@@ -1,3 +1,3 @@
 ### The Complete 2023 Web Development Bootcamp
 
-Intro to Node Project Live Link - 
+Command to run this project - node index.js 
