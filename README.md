@@ -1,3 +1,3 @@
 ### The Complete 2023 Web Development Bootcamp
 
-My Express Server
+Command to run this project - node server.js
