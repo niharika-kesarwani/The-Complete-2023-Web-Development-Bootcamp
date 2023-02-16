@@ -41,16 +41,28 @@ app.post("/", function (req, res) {
         auth: "niharika:c8dfee87f31e528021faf952a21f922b-us12"
     }
 
-    const request = https.request(url, options, function(response) {        
-        response.on("data", function(data) {
+    const request = https.request(url, options, function (response) {
+
+        if (response.statusCode === 200) {
+            res.sendFile(__dirname + "/success.html");
+        } else {
+            res.sendFile(__dirname + "/failure.html");
+        }
+
+        response.on("data", function (data) {
             console.log(JSON.parse(data));
         });
+
     })
 
     request.write(jsonData);
     request.end();
 
 });
+
+app.post("/failure", function (req, res) {
+    res.redirect("/");
+})
 
 // {
 //     "email_address": "$user_email",
