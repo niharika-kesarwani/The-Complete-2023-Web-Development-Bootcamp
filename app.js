@@ -50,7 +50,8 @@ app.post("/", function (req, res) {
             res.sendFile(__dirname + "/failure.html");
         }
 
-        response.on("data", function (data) {      
+        response.on("data", function (data) {   
+            console.log(process.env.API_KEY)   
             console.log(JSON.parse(data));
         });
 
