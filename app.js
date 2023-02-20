@@ -1,5 +1,6 @@
 //jshint esversion: 6
 
+require('dotenv').config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const request = require("request");
@@ -34,11 +35,11 @@ app.post("/", function (req, res) {
 
     const jsonData = JSON.stringify(data);
 
-    const url = "https://us12.api.mailchimp.com/3.0/lists/4e82e091a1";
+    const url = "https://us12.api.mailchimp.com/3.0/lists/" + process.env.LIST_ID;
 
     const options = {
         method: "POST",
-        auth: "niharika:c8dfee87f31e528021faf952a21f922b-us12"
+        auth: "niharika:" + process.env.API_KEY
     }
 
     const request = https.request(url, options, function (response) {
@@ -50,6 +51,8 @@ app.post("/", function (req, res) {
         }
 
         response.on("data", function (data) {
+            console.log(url)
+            console.log(options.auth)           
             console.log(JSON.parse(data));
         });
 
@@ -76,9 +79,3 @@ app.post("/failure", function (req, res) {
 app.listen(process.env.PORT || 3000, function () {
     console.log("Server is running on port 3000!");
 });
-
-// API Key
-// c8dfee87f31e528021faf952a21f922b-us12
-
-// List ID
-// 4e82e091a1
