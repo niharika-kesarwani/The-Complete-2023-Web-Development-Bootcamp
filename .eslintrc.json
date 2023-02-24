@@ -23,6 +23,7 @@
     "sourceType": "module"
   },
   "plugins": ["html", "jsx-a11y", "react"],
+  "root": true,
   "rules": {
     "indent": ["error", 2],
     "jsx-a11y/accessible-emoji": "error",
@@ -51,6 +52,8 @@
   "settings": {
     "react": {
       "version": "detect"
-    }
+    },
+    "html/indent": "+2",
+    "html/report-bad-indent": "error"
   }
 }
