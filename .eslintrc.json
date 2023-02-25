@@ -22,7 +22,7 @@
     "requireConfigFile": false,
     "sourceType": "module"
   },
-  "plugins": ["html", "jsx-a11y", "react"],
+  "plugins": ["eslint-plugin-html", "jsx-a11y", "react"],
   "root": true,
   "rules": {
     "indent": ["error", 2],
