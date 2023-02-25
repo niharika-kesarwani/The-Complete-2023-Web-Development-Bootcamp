@@ -1,5 +1,6 @@
 //jshint esversion:6
 
+require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
 
@@ -34,6 +35,6 @@ app.post("/bmicalculator", function (req, res) {
     res.send("Your BMI is " + bmi);
 })
 
-app.listen(3000, function() {
-    console.log("Server started at port 3000!")
+app.listen(process.env.PORT || 3000, function() {
+    console.log(`Server started at port ${process.env.PORT || 3000}!`)
 });
