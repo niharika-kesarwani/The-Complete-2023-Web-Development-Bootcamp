@@ -4,8 +4,6 @@
 
 1. Calculator Live Project Link - https://calculator-todk.onrender.com
 
-<br>
-
 2. BMI Calculator Live Project Link - https://calculator-todk.onrender.com/bmicalculator
 
 <br/>
