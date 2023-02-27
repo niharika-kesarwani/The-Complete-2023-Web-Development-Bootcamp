@@ -2,7 +2,7 @@
 
 <br>
 
-1. Calculator Live Project Link - https://calculator-todk.onrender.com
+1. Sum Calculator Live Project Link - https://calculator-todk.onrender.com
 
 2. BMI Calculator Live Project Link - https://calculator-todk.onrender.com/bmicalculator
 
@@ -12,7 +12,7 @@ Commands to run this project locally:
 
 <br>
 
-1. Calculator Project -
+1. Sum Calculator Project -
 
 - node calculator.js
 - http://localhost:3000/
