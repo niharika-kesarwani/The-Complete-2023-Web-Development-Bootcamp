@@ -28,7 +28,7 @@ Udemy Course Link - https://www.udemy.com/course/the-complete-web-development-bo
 
 10. Tindog-Site Project (live link) - https://tindog-site-niharika.netlify.app/
 
-11. CSS-My-Site Project (live link) - https://my-site-css.netlify.app/
+11. CSS-My-Site Project and CAPSTONE PROJECT 2 (live link) - https://my-site-css.netlify.app/
 
 12. CSS-Cottage-Cheese-Fansite Project (live link) - https://css-cottage-cheese-fansite.netlify.app/
 
