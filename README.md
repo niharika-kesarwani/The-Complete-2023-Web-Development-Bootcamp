@@ -8,4 +8,8 @@ Joke Capstone Capstone Project:
 
 <br>
 
-Command to run this project locally - Open with Live Server
+Command to run this project locally - 
+
+1. npm run dev
+
+2. Browser URL - http://localhost:5173
