@@ -4,7 +4,7 @@
 
 Joke Capstone Capstone Project:
 
-- Live Link - https://joke-capstone.onrender.com?q=mother (GET request)
+- Live Link - https://joke-capstone.netlify.app
 
 <br>
 
