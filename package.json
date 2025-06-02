@@ -19,6 +19,7 @@
   "homepage": "https://github.com/NiharikaNeha/The-Complete-2023-Web-Development-Bootcamp#readme",
   "dependencies": {
     "axios": "^1.9.0",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
   }
 }
