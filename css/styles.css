@@ -6,7 +6,8 @@ body {
   width: min-content;
 }
 
-h1 {
+h1,
+div {
   white-space: nowrap;
 }
 
