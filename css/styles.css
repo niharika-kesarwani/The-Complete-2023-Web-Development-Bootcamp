@@ -1,18 +1,17 @@
 body {
-    background-color: #DEFCF9;
+  background-color: #defcf9;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: min-content;
 }
 
-h1, h3 {
-    color: #66BFBF;
+h1 {
+  white-space: nowrap;
 }
 
-h3 {
-    font-style: italic;   
-}
-
-hr {
-    border-color: gray;
-    border-style: dotted none none;
-    width: 10%;
-    border-width: 5px;
+button {
+  width: fit-content;
+  padding: 5px 10px;
+  cursor: pointer;
 }
