@@ -23,10 +23,38 @@ app.get("/filter", (req, res) =>
 );
 
 //4. POST a new joke
+app.post("/jokes", (req, res) => {
+  const newJoke = {
+    id: jokes.length + 1,
+    jokeText: req.body.text,
+    jokeType: req.body.type,
+  };
+  jokes.push(newJoke);
+  res.send(newJoke);
+});
 
 //5. PUT a joke
+app.put("/jokes/:id", (req, res) => {
+  const updatedJoke = {
+    id: parseInt(req.params.id),
+    jokeText: req.body.text,
+    jokeType: req.body.type,
+  };
+  jokes = jokes.map((joke) => (joke.id == req.params.id ? updatedJoke : joke));
+  res.send(updatedJoke);
+});
 
 //6. PATCH a joke
+app.patch("/jokes/:id", (req, res) => {
+  const oldJoke = jokes.find((joke) => joke.id == req.params.id);
+  const updatedJoke = {
+    id: parseInt(req.params.id),
+    jokeText: req.body.text ?? oldJoke.jokeText,
+    jokeType: req.body.type ?? oldJoke.jokeType,
+  };
+  jokes = jokes.map((joke) => (joke.id == req.params.id ? updatedJoke : joke));
+  res.send(updatedJoke);
+});
 
 //7. DELETE Specific joke
 
