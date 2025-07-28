@@ -2,25 +2,28 @@
 
 Udemy Course Link - https://www.udemy.com/course/the-complete-web-development-bootcamp/
 
-1. Joke Capstone (live links) - 
-    - Backend - https://joke-capstone.onrender.com?q=mother
-    - Frontend - https://joke-capstone.netlify.app
+1. Joke Capstone (live links) -
+
+   - Backend - https://joke-capstone.onrender.com?q=mother
+   - Frontend - https://joke-capstone.netlify.app
 
 2. Newsletter-Sign-Up Project (live link) - https://newsletter-signup-3fa1.onrender.com/
 
 3. Weather Project (live link) - https://weather-project-ve05.onrender.com
 
 4. My-Express-Server Project (live links) -
-    - Home Page - https://my-express-server.onrender.com
-    - About Page - https://my-express-server.onrender.com/about
-    - Contact Page - https://my-express-server.onrender.com/contact
-    - Hobbies Page - https://my-express-server.onrender.com/hobbies
+
+   - Home Page - https://my-express-server.onrender.com
+   - About Page - https://my-express-server.onrender.com/about
+   - Contact Page - https://my-express-server.onrender.com/contact
+   - Hobbies Page - https://my-express-server.onrender.com/hobbies
 
 5. Simon-Game-Challenge (live link) - https://simon-game-challenge-niharika.netlify.app/
 
 6. Calculator Project (live links) -
-    - Sum Calculator - https://calculator-todk.onrender.com
-    - BMI Calculator - https://calculator-todk.onrender.com/bmicalculator
+
+   - Sum Calculator - https://calculator-todk.onrender.com
+   - BMI Calculator - https://calculator-todk.onrender.com/bmicalculator
 
 7. jQuery Project (live link) - https://jquery-niharika.netlify.app/
 
