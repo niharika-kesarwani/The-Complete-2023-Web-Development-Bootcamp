@@ -2,4 +2,4 @@
 
 <br>
 
-CAPSTONE PROJECT 1 Live Link -
+CAPSTONE PROJECT 1 Live Link - https://online-resume-niharika.netlify.app/
