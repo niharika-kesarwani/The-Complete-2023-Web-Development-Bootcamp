@@ -18,31 +18,52 @@ db.connect();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-app.get("/", async (req, res) => {
-  //Write your code here.
+const getVisitedCountries = async () => {
   let countries = [];
   const result = await db.query("SELECT country_code FROM visited_countries");
   result.rows.forEach((country) => countries.push(country.country_code));
-  console.log(result.rows);
-  res.render("index.ejs", { countries, total: countries.length });
+  return countries;
+};
+
+const renderIndexEJS = async (res, errorText) => {
+  const countries = await getVisitedCountries();
+  res.render("index.ejs", {
+    countries,
+    total: countries.length,
+    error: errorText ?? null,
+  });
+};
+
+app.get("/", async (req, res) => {
+  renderIndexEJS(res);
 });
 
 app.post("/add", async (req, res) => {
   const countryInput = req.body.country;
 
-  const countryResult = await db.query(
-    "SELECT country_code FROM countries WHERE country_name = $1",
-    [countryInput]
-  );
+  if (countryInput) {
+    const countryResult = await db.query(
+      "SELECT country_code FROM countries WHERE LOWER(country_name) LIKE '%' || $1 || '%'",
+      [countryInput.toLowerCase()]
+    );
 
-  if (countryResult.rows.length !== 0) {
-    const countryCode = countryResult.rows[0].country_code;
+    if (countryResult.rows.length !== 0) {
+      const countryCode = countryResult.rows[0].country_code;
 
-    await db.query("INSERT INTO visited_countries (country_code) VALUES ($1)", [
-      countryCode,
-    ]);
-
-    res.redirect("/");
+      try {
+        await db.query(
+          "INSERT INTO visited_countries (country_code) VALUES ($1)",
+          [countryCode]
+        );
+        res.redirect("/");
+      } catch (err) {
+        renderIndexEJS(res, "Country has already been added, try again.");
+      }
+    } else {
+      renderIndexEJS(res, "Country name does not exist, try again.");
+    }
+  } else {
+    renderIndexEJS(res, "Country name cannot be empty, try again.");
   }
 });
 
