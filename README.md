@@ -39,7 +39,7 @@ Udemy Course Link - https://www.udemy.com/course/the-complete-web-development-bo
 
 13. CSS-Cottage-Cheese-Fansite Project (live link) - https://css-cottage-cheese-fansite.netlify.app/
 
-14. CAPSTONE PROJECT 1 (repo link) - https://github.com/niharika-kesarwani/online-resume
+14. CAPSTONE PROJECT 1 (live link) - https://online-resume-niharika.netlify.app/
 
 15. Portfolio Website (live link) - https://html-portfolio-niharika.netlify.app/
 
