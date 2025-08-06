@@ -1,4 +1,4 @@
-### THE COMPLETE 2023 WEB DEVELOPMENT BOOTCAMP
+### THE COMPLETE FULL-STACK WEB DEVELOPMENT BOOTCAMP
 
 Course Link - https://www.udemy.com/course/the-complete-web-development-bootcamp/
 
