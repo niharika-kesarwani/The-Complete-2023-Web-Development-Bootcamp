@@ -2,9 +2,7 @@
 
 <br>
 
-Joke Capstone Capstone Project:
-
-- Live Link - https://joke-capstone.onrender.com?q=mother (GET request)
+JOKE CAPSTONE PROJECT 3 Live Link: https://joke-capstone.onrender.com?q=mother
 
 <br>
 
@@ -14,4 +12,4 @@ Commands to run this project locally:
 
 2. Browser URLs:
 
-- http://localhost:3000?q=mother (GET request)
+- http://localhost:3000?q=mother
