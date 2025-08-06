@@ -1,46 +1,50 @@
-### The Complete 2023 Web Development Bootcamp
+### THE COMPLETE 2023 WEB DEVELOPMENT BOOTCAMP
 
-Udemy Course Link - https://www.udemy.com/course/the-complete-web-development-bootcamp/
+Course Link - https://www.udemy.com/course/the-complete-web-development-bootcamp/
 
-1. Joke Capstone (live links) -
+#### CAPSTONE PROJECTS:
+
+1. Joke API -
 
    - Backend - https://joke-capstone.onrender.com?q=mother
    - Frontend - https://joke-capstone.netlify.app
 
-2. Newsletter-Sign-Up Project (live link) - https://newsletter-signup-3fa1.onrender.com/
+2. Personal Site - https://my-site-css.netlify.app/
 
-3. Weather Project (live link) - https://weather-project-ve05.onrender.com
+3. Online Resume - https://online-resume-niharika.netlify.app/
 
-4. My-Express-Server Project (live links) -
+#### OTHERS:
+
+1. Newsletter-Sign-Up Project - https://newsletter-signup-3fa1.onrender.com/
+
+2. Weather Project - https://weather-project-ve05.onrender.com
+
+3. My-Express-Server Project -
 
    - Home Page - https://my-express-server.onrender.com
    - About Page - https://my-express-server.onrender.com/about
    - Contact Page - https://my-express-server.onrender.com/contact
    - Hobbies Page - https://my-express-server.onrender.com/hobbies
 
-5. Simon-Game-Challenge (live link) - https://simon-game-challenge-niharika.netlify.app/
+4. Simon-Game-Challenge - https://simon-game-challenge-niharika.netlify.app/
 
-6. Calculator Project (live links) -
+5. Calculator Project -
 
    - Sum Calculator - https://calculator-todk.onrender.com
    - BMI Calculator - https://calculator-todk.onrender.com/bmicalculator
 
-7. jQuery Project (live link) - https://jquery-niharika.netlify.app/
+6. jQuery Project - https://jquery-niharika.netlify.app/
 
-8. Drum-Kit Project (live link) - https://drum-kit-niharika.netlify.app/
+7. Drum-Kit Project - https://drum-kit-niharika.netlify.app/
 
-9. Dicee-Challenge Project (live link) - https://dicee-challenge-niharika.netlify.app/
+8. Dicee-Challenge Project - https://dicee-challenge-niharika.netlify.app/
 
-10. DOM Project (live link) - https://dom-niharika.netlify.app/
+9. DOM Project - https://dom-niharika.netlify.app/
 
-11. Tindog-Site Project (live link) - https://tindog-site-niharika.netlify.app/
+10. Tindog-Site Project - https://tindog-site-niharika.netlify.app/
 
-12. CSS-My-Site Project and CAPSTONE PROJECT 2 (live link) - https://my-site-css.netlify.app/
+11. CSS-Cottage-Cheese-Fansite Project - https://css-cottage-cheese-fansite.netlify.app/
 
-13. CSS-Cottage-Cheese-Fansite Project (live link) - https://css-cottage-cheese-fansite.netlify.app/
+12. Portfolio Website - https://html-portfolio-niharika.netlify.app/
 
-14. CAPSTONE PROJECT 1 (live link) - https://online-resume-niharika.netlify.app/
-
-15. Portfolio Website (live link) - https://html-portfolio-niharika.netlify.app/
-
-16. HTML-Personal-Site Project (live link) - https://personal-site-html.netlify.app/
+13. HTML-Personal-Site Project - https://personal-site-html.netlify.app/
